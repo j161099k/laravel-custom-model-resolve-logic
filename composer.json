@@ -1,0 +1,26 @@
+{
+    "name": "j1610/custom-model-resolve-logic",
+    "description": "A package that allows to customize model resolution logic for model route bindings",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "J1610\\CustomModelResolveLogic\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablo Jonhatan Solis Mendiola",
+            "email": "j161099@gmail.com"
+        }
+    ],
+
+    "extra": {
+    "laravel": {
+            "providers": [
+                "J1610\\CustomModelResolveLogic\\CustomModelResolveLogicServiceProvider"
+            ]
+        }
+    },
+
+    "require": {}
+}
